@@ -33,11 +33,11 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 
 **Code of Conduct:**
 
-Please note that we have a [Code of Conduct](./CODE_OF_CONDUCT.md){:target="\_blank"} that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
+Please note that we have a <a href="./CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</a> that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
 
 **Hacktoberfest Participation:**
 
-We're participating in [Hacktoberfest](https://hacktoberfest.com/auth/){:target="\_blank"}! To be eligible, make sure to register between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
+We're participating in [Hacktoberfest](https://hacktoberfest.com/auth/)! To be eligible, make sure to register between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
 
 **Additional Information:**
 
