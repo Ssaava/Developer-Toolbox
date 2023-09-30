@@ -33,7 +33,7 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 
 **Code of Conduct:**
 
-Please note that we have a <a href="./CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</a> that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
+Please note that we have a [Code of Conduct](./CODE_OF_CONDUCT.md) that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
 
 **Hacktoberfest Participation:**
 
