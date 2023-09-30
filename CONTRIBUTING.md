@@ -1,4 +1,3 @@
-
 # Contribution Guidelines
 
 Welcome to the "Developer-Toolbox" repository! We're excited that you're interested in contributing to our collection of developer resources. Whether you're a seasoned open-source enthusiast or just starting your journey, there are many ways to get involved.
@@ -29,7 +28,7 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 
 **Code of Conduct:**
 
-Please note that we have a [Code of Conduct](link-to-code-of-conduct) that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
+Please note that we have a [Code of Conduct]('./CODE_OF_CONDUCT.md') that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
 
 **Hacktoberfest Participation:**
 
