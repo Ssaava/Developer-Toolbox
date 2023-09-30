@@ -17,7 +17,8 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 **Getting Started:**
 
 1. **Fork the Repository:** Start by forking this repository to your GitHub account.
-   <img src="./public/folk_illustration.png" width="500" height="400" />
+   ;; <img src="./public/fork_illustration.png" width="500" height="400" />
+   ![fork Illustration](./public/fork_illustration.png)
 
 2. **Clone Your Fork:** Clone the forked repository to your local machine.
 
