@@ -37,7 +37,7 @@ Please note that we have a [Code of Conduct](./CODE_OF_CONDUCT.md) that we expec
 
 **Hacktoberfest Participation:**
 
-We're participating in [Hacktoberfest](https://hacktoberfest.com/auth/)! To be eligible, make sure to register between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
+We're participating in [Hacktoberfest](https://hacktoberfest.com/)! To be eligible, make sure to [register](https://hacktoberfest.com/auth/) between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
 
 **Additional Information:**
 
