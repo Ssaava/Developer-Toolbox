@@ -40,14 +40,15 @@ Welcome to the Developer Resources Repository! Here you'll find a curated collec
   - [Version Control](#version-control)
 
 - [Data Science and Machine Learning](#data-science-and-machine-learning)
+
   - [Machine Learning](#machine-learning)
   - [Data Analysis](#data-analysis)
   - [Data Visualization](#data-visualization)
 
--[Database](#database)
+- [Database](#database)
 
-- [Relational Databases](#relational-databases)
-- [NoSQL Databases](#noSQL-databases)
+  - [Relational Databases](#relational-databases)
+  - [NoSQL Databases](#noSQL-databases)
 
 - [DevOps and Deployment](#devops-and-deployment)
 
