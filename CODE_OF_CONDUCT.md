@@ -22,7 +22,7 @@ Unacceptable behavior includes, but is not limited to:
 
 ## Reporting Incidents
 
-If you witness or experience any behavior that violates this Code of Conduct, please report it to the project maintainers at [contact-email].
+If you witness or experience any behavior that violates this Code of Conduct, please report it to the project maintainers at [ssavaemma4@gmail.com](ssavaemma4@gmail.com).
 
 ## Enforcement
 
