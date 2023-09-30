@@ -33,7 +33,7 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 
 **Code of Conduct:**
 
-Please note that we have a [Code of Conduct]('./CODE_OF_CONDUCT.md') that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
+Please note that we have a [Code of Conduct]('https://github.com/Ssaava/Developer-Toolbox/blob/main/CODE_OF_CONDUCT.md') that we expect all contributors to follow. We want to maintain an inclusive and respectful environment for everyone.
 
 **Hacktoberfest Participation:**
 
