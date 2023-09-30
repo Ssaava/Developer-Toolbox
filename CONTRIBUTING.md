@@ -17,8 +17,13 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 **Getting Started:**
 
 1. **Fork the Repository:** Start by forking this repository to your GitHub account.
+   <img src="" />
 
 2. **Clone Your Fork:** Clone the forked repository to your local machine.
+
+```bash
+    git clone https://github.com/Ssaava/Developer-Toolbox.git
+```
 
 3. **Make Your Contributions:** Depending on how you'd like to contribute, make your changes locally.
 
@@ -32,14 +37,11 @@ Please note that we have a [Code of Conduct]('./CODE_OF_CONDUCT.md') that we exp
 
 **Hacktoberfest Participation:**
 
-We're participating in Hacktoberfest! To be eligible, make sure to register between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
+We're participating in [Hacktoberfest]("https://hacktoberfest.com/auth/")! To be eligible, make sure to register between Sept. 26th and Oct. 31st. You can contribute by opening pull requests on both GitHub and GitLab from Oct. 1st to 31st.
 
 **Additional Information:**
 
 - If you're new to open source, don't worry! We're here to support you. Follow our guidelines and feel free to ask questions.
-- Look for issues tagged 'good first issue' and 'hacktoberfest' if you're looking for a place to start.
-- Even if you're not comfortable with code, you can contribute in various ways, such as improving documentation or suggesting design enhancements.
-
-Let's make Hacktoberfest a great opportunity to collaborate and enhance our Developer-Toolbox together!
+  Let's make Hacktoberfest a great opportunity to collaborate and enhance our Developer-Toolbox together!
 
 Happy coding! 🌟🎉
