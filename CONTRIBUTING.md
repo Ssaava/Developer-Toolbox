@@ -10,14 +10,11 @@ Welcome to the "Developer-Toolbox" repository! We're excited that you're interes
 
 3. **Coding:** If you're comfortable with coding, you can enhance the functionality of our toolbox. Feel free to open pull requests for new features, bug fixes, or optimizations.
 
-4. **Organize Events:** Are you passionate about hosting events or webinars? Consider organizing a virtual event related to developer tools and resources.
-
-5. **Mentorship:** Offer guidance and mentorship to fellow contributors. Share your expertise and help others grow in the developer community.
+4. **Mentorship:** Offer guidance and mentorship to fellow contributors. Share your expertise and help others grow in the developer community.
 
 **Getting Started:**
 
 1. **Fork the Repository:** Start by forking this repository to your GitHub account.
-   ;; <img src="./public/fork_illustration.png" width="500" height="400" />
    ![fork Illustration](./public/fork_illustration.png)
 
 2. **Clone Your Fork:** Clone the forked repository to your local machine.
