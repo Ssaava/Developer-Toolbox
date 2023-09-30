@@ -22,7 +22,7 @@ Unacceptable behavior includes, but is not limited to:
 
 ## Reporting Incidents
 
-If you witness or experience any behavior that violates this Code of Conduct, please report it to the project maintainers at [ssavaemma4@gmail.com](ssavaemma4@gmail.com).
+If you witness or experience any behavior that violates this Code of Conduct, please report it to the project maintainers at [ssavaemma4@gmail.com].
 
 ## Enforcement
 
@@ -38,10 +38,8 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ## Questions and Contact
 
-If you have any questions or need to contact the maintainers regarding this Code of Conduct, please reach out to [ssavaemma4@gmail.com](ssavaemma4@gmail.com).
+If you have any questions or need to contact the maintainers regarding this Code of Conduct, please reach out to [ssavaemma4@gmail.com].
 
 By participating in this community, you agree to abide by this Code of Conduct. Let's work together to create a welcoming and collaborative environment for everyone.
 
 Thank you for your contribution and support!
-
-[contact-email]: mailto:your-email@example.com
