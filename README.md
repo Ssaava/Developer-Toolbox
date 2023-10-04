@@ -102,3 +102,5 @@ Welcome to the Developer Resources Repository! Here you'll find a curated collec
   - [Interview Preparation](#interview-preparation)
 
 - [Miscellaneous](#miscellaneous)
+
+[Top](#table-of-contents)
