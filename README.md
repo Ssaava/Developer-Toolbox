@@ -103,4 +103,4 @@ Welcome to the Developer Resources Repository! Here you'll find a curated collec
 
 - [Miscellaneous](#miscellaneous)
 
-[Top](#table-of-contents)
+[![Top](./public/top.png)](#table-of-contents)
