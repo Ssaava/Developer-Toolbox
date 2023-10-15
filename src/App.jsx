@@ -1,9 +1,8 @@
-import { SideNav } from "./components";
+import { Header } from "./components";
 function App() {
   return (
     <>
-      <SideNav />
-      <h2>Hello world</h2>
+      <Header />
     </>
   );
 }
