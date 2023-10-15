@@ -1,3 +1,3 @@
-export const TopNav = () => {
+export const Header = () => {
   return <div>TopNav</div>;
 };
