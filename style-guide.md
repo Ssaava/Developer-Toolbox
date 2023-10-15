@@ -35,3 +35,7 @@ The designs were created to the following widths:
 - Font size (text): 32px
 
 ### Font
+
+### Icons
+
+(React Icons)[https://react-icons.github.io/react-icons]
