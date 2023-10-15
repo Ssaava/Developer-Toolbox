@@ -15,24 +15,18 @@ The designs were created to the following widths:
 
 - background-white: hsl(0, 0%, 100%)
 - background-light: hsl(0, 0%, 93%)
+- button background: #8e44ad
 
 #### Text
 
-- text dark: hsl(210, 29%, 24%)
-- text light: hsl(0, 0%, 59%)
+- text dark: #2c3e50
+- text light: #888
 
 ### Dark Mode
 
 #### Backgrounds
 
-- Light gray (main background): hsl(0, 0%, 90%)
-- Grayish red (toggle background, keypad background): hsl(0, 5%, 81%)
-- Very light gray (screen background): hsl(0, 0%, 93%)
-
 #### Text
-
-- Very dark grayish yellow: hsl(60, 10%, 19%)
-- White (text): hsl(0, 0%, 100%)
 
 ## Typography
 
