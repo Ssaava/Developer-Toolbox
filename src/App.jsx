@@ -1,8 +1,11 @@
-import { Header } from "./components";
+import { Header, SideNav } from "./components";
 function App() {
   return (
     <>
-      <Header />
+      <div className="bg-stone-500 h-full box-border">
+        <Header />
+        <SideNav />
+      </div>
     </>
   );
 }
