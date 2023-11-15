@@ -11,7 +11,8 @@ export default {
           900: "#2c3e50",
         },
         stone: {
-          400: "#888", // text color
+          300: "#EEEEEE", //background color
+          400: "#888888", // text color
           500: "#fffc0230", // bg color
         },
       },
