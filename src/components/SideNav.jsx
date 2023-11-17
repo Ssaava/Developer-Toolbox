@@ -5,7 +5,7 @@ import { FaQuestion } from "react-icons/fa6";
 
 const SideNav = () => {
   return (
-    <div className="md:w-80 w-0 overflow-hidden py-5 h-full fixed bg-white top-0 border-r-2 border-stone-300">
+    <div className="tablet:w-80 w-0 transition-all overflow-hidden py-5 h-full fixed bg-white top-0 border-r-2 border-stone-300">
       <div className="profile px-5 text-xl">
         <Avatar />
         <div>
@@ -15,17 +15,14 @@ const SideNav = () => {
         <Button width="100%" margin="10px" />
       </div>
       <div className="links">
-        <Links mt="mt-6">
-          <TiHome />
-          <p>Home</p>
+        <Links info="Home" mt="mt-6">
+          <TiHome color="#8e44ad" />
         </Links>
-        <Links>
-          <FaQuestion />
-          <p>About</p>
+        <Links info="About">
+          <FaQuestion color="#8e44ad" />
         </Links>
-        <Links>
-          <IoCall />
-          <p>Contact</p>
+        <Links info="Contact">
+          <IoCall color="#8e44ad" />
         </Links>
       </div>
     </div>
