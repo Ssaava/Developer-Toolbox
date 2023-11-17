@@ -16,6 +16,9 @@ export default {
           500: "#fffc0230", // bg color
         },
       },
+      screens: {
+        tablet: "1084px",
+      },
     },
   },
   plugins: [],
