@@ -1,12 +1,14 @@
 const Card = () => {
   return (
     <div className="group/card h-72 p-4 mt-12 rounded relative bg-white cursor-pointer">
-      <div className="w-16 h-16 absolute left-4 -top-8 rounded-md bg-black ">
-        <img src="../../../public/JavaScript-logo.png" alt="resource name" />
+      <div className="card-img bg-[url('../../../public/JavaScript-logo.png')]  ">
+        {/* <img src="../../../public/JavaScript-logo.png" alt="resource name" /> */}
       </div>
       <div className="group/info mt-7">
-        <div className="mb-5 text-3xl">Card title</div>
-        <div className="text-lg h-[125px]  overflow-y-hidden">
+        <div className="mb-4 text-3xl text-[#2c3e50] font-primaryFont font-bold">
+          Card title
+        </div>
+        <div className="text-base h-[125px] text-[#0F172A] font-textFont overflow-y-hidden">
           JavaScript (JS) is a lightweight interpreted (or just-in-time
           compiled) programming language with first-class functions. While it is
           most well-known as the scripting language for Web pages, many
