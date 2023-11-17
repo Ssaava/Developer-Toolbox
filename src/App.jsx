@@ -1,10 +1,11 @@
-import { Header, SideNav } from "./components";
+import { Header, Main, SideNav } from "./components";
 function App() {
   return (
     <>
-      <div className="bg-stone-500 h-full box-border">
+      <div className=" h-full box-border">
         <Header />
         <SideNav />
+        <Main />
       </div>
     </>
   );

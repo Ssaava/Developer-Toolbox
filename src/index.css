@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .more-btn {
+    @apply absolute right-5 bottom-5 hover:text-white hover:bg-purple-900 hover:rounded-md px-3 py-2;
+  }
+}
