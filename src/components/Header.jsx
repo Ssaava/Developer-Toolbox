@@ -3,19 +3,16 @@ import { BsSun } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <div className="px-8 py-6 flex justify-between items-center border-b w-full tablet:w-[calc(100%-20rem)] ms-auto bg-white text-xl">
-        <div className="">Logo</div>
-        {/* <div className="flex justify-between border-2 items-center px-4 rounded-md bg-stone-300 py-3 w-9/12 max-w-xl">
-          <input
-            className="outline-none text-white text-base max-w-prose bg-transparent w-10/12"
-            type="search"
-            placeholder="search resources..."
-          />
-          <HiSearch />
-        </div> */}
-        <div className="flex justify-between items-center gap-6">
-          <HiOutlineMenu className="tablet:hidden" />
-          <BsSun />
+      <div
+        className="px-8 py-6 sm:flex sm:justify-between sm:items-center border-b w-full tablet:w-[calc(100%-20rem)] ms-auto
+       bg-white text-xl "
+      >
+        <div className="cursor-pointer text-3xl text-[#0F172A] font-primaryFont font-extrabold">
+          Developer ToolBox
+        </div>
+        <div className="flex sm:justify-between items-center gap-6 max-[640px]:mt-4 ">
+          <HiOutlineMenu className="tablet:hidden text-2xl" />
+          <BsSun className="text-2xl cursor-pointer" />
         </div>
       </div>
     </>

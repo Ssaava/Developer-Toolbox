@@ -18,6 +18,11 @@ export default {
       },
       screens: {
         tablet: "1084px",
+        phone: "560px",
+      },
+      fontFamily: {
+        primaryFont: ["Nunito"],
+        textFont: ["Inter"],
       },
     },
   },
