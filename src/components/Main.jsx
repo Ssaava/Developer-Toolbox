@@ -1,8 +1,8 @@
 import { Card, SearchInput } from "./utilities";
 const Main = () => {
   return (
-    <main className="tablet:w-[calc(100%-20rem)] tablet:ms-auto bg-stone-300 p-5">
-      <h3 className="text-3xl font-primaryFont font-bold text-[#0F172A]">
+    <main className="tablet:w-[calc(100%-20rem)] tablet:ms-auto bg-stone-300 p-5 dark:bg-gray-900 outline-none">
+      <h3 className="text-3xl font-primaryFont font-bold text-[#0F172A] dark:text-white">
         Content details
       </h3>
       <p className="rounded-lg bg-stone-400 w-100% h-[1px] my-7"></p>

@@ -4,10 +4,10 @@ const Links = ({ mt = "mt-2", info, children }) => {
   return (
     <>
       <div
-        className={`group flex gap-4 items-center hover:bg-stone-300 hover:text-stone-400 w-full py-3 px-4 ${mt} text-xl`}
+        className={`group flex gap-4 items-center hover:bg-stone-300 hover:dark:bg-gray-900 hover:text-stone-400 w-full py-3 px-4 ${mt} text-xl`}
       >
         {children}
-        <p className="group-hover:translate-x-2 group-hover:text-stone-400 transition-all">
+        <p className="group-hover:translate-x-2  dark:text-white  group-hover:text-stone-400 transition-all">
           {info}
         </p>
       </div>
