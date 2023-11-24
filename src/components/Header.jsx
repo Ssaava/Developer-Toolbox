@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <>
       <div
-        className="px-8 py-6 sm:flex sm:justify-between sm:items-center border-b w-full tablet:w-[calc(100%-20rem)] ms-auto
-       bg-white text-xl "
+        className=" sticky top-0 z-10 px-8 py-6 sm:flex sm:justify-between sm:items-center border-b w-full tablet:w-[calc(100%-20rem)] ms-auto
+       bg-white text-xl dark:bg-gray-950 dark:border-gray-900 dark:text-white  "
       >
-        <div className="cursor-pointer text-3xl text-[#0F172A] font-primaryFont font-extrabold">
+        <div className="cursor-pointer text-3xl text-[#0F172A] dark:text-white font-primaryFont font-extrabold">
           Developer ToolBox
         </div>
         <div className="flex sm:justify-between items-center gap-6 max-[640px]:mt-4 ">

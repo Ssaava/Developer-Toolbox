@@ -11,4 +11,7 @@
   .card-img {
     @apply w-16 h-16 absolute left-4 -top-8 rounded-md bg-cover bg-no-repeat;
   }
+  html {
+    @apply dark:bg-gray-900 bg-stone-300;
+  }
 }
