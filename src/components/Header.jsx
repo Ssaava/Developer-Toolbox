@@ -3,16 +3,40 @@ import { BsSun } from "react-icons/bs";
 import { MdDarkMode, MdOutlineArrowDropDown, MdComputer } from "react-icons/md";
 import { useEffect, useState } from "react";
 const Header = () => {
-  const [theme, setTheme] = useState(false);
+  const [themeType, setThemeType] = useState("system");
   const [themeSwitch, setThemeSwitch] = useState(true);
   const elementDocument = document.documentElement;
-  useEffect(() => {
-    if (theme) {
-      elementDocument.classList.remove("dark");
-    } else {
-      elementDocument.classList.add("dark");
+  const themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  themeQuery.addEventListener("change", () => switchSystemTheme());
+  // useEffect hook
+  useEffect(() => {}, []);
+  function switchTheme(theme) {
+    switch (theme) {
+      case "dark":
+        elementDocument.classList.add("dark");
+        setThemeType("dark");
+        break;
+      case "light":
+        elementDocument.classList.remove("dark");
+        setThemeType("light");
+        break;
+      default:
+        switchSystemTheme();
+        setThemeType("system");
+        break;
     }
-  }, [theme, elementDocument, themeSwitch]);
+  }
+  //switch theme when system changes
+  function switchSystemTheme() {
+    if (themeQuery.matches && themeType !== "dark") {
+      elementDocument.classList.add("dark");
+      switchTheme("system");
+    } else {
+      elementDocument.classList.remove("dark");
+      switchTheme("system");
+    }
+  }
+
   return (
     <>
       <div
@@ -35,16 +59,19 @@ const Header = () => {
             >
               <div>
                 <BsSun
-                  className={`text-2xl cursor-pointer hidden`}
-                  onClick={() => setTheme(!theme)}
+                  className={`text-2xl cursor-pointer ${
+                    themeType !== "light" && "hidden"
+                  }`}
                 />
                 <MdDarkMode
-                  className="text-2xl cursor-pointer hidden"
-                  onClick={() => setTheme(!theme)}
+                  className={`text-2xl cursor-pointer ${
+                    themeType !== "dark" && "hidden"
+                  }`}
                 />
                 <MdComputer
-                  className="text-2xl cursor-pointer"
-                  onClick={() => setTheme(!theme)}
+                  className={`text-2xl cursor-pointer ${
+                    themeType !== "system" && "hidden"
+                  }`}
                 />
               </div>{" "}
               <MdOutlineArrowDropDown />
@@ -52,7 +79,7 @@ const Header = () => {
 
             {/* selection list */}
             <div
-              className={`absolute border-2 dark:bg-gray-950 dark:border-gray-900 w-14 py-2 ${
+              className={`absolute border-2 dark:bg-gray-950 dark:border-gray-900 w-20 -left-1 py-2 ${
                 themeSwitch && "hidden"
               }`}
               onClick={() => {
@@ -60,16 +87,16 @@ const Header = () => {
               }}
             >
               <BsSun
-                className="text-2xl cursor-pointer w-full mb-2 text-gray-300  dark:hover:bg-gray-900 hover:text-white"
-                onClick={() => setTheme(!theme)}
+                className="text-5xl cursor-pointer w-full py-2 text-gray-300  dark:hover:bg-gray-900 hover:text-white"
+                onClick={() => switchTheme("light")}
               />
               <MdDarkMode
-                className="text-2xl cursor-pointer w-full mb-2 text-gray-300 dark:hover:bg-gray-900 hover:text-gray-500"
-                onClick={() => setTheme(!theme)}
+                className="text-5xl cursor-pointer w-full py-2 text-gray-300 dark:hover:bg-gray-900 hover:text-gray-500"
+                onClick={() => switchTheme("dark")}
               />
               <MdComputer
-                className="text-2xl cursor-pointer w-full text-gray-300  dark:hover:bg-gray-900 hover:text-blue-400"
-                onClick={() => setTheme(!theme)}
+                className="text-5xl cursor-pointer w-full py-2 text-gray-300  dark:hover:bg-gray-900 hover:text-blue-400"
+                onClick={() => console.log(themeType)}
               />
             </div>
           </div>
