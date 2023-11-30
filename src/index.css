@@ -14,4 +14,7 @@
   html {
     @apply dark:bg-gray-900 bg-stone-300;
   }
+  .dark {
+    @apply bg-gray-900;
+  }
 }

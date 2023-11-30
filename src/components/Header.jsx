@@ -1,6 +1,17 @@
 import { HiOutlineMenu } from "react-icons/hi";
 import { BsSun } from "react-icons/bs";
+import { useEffect, useState } from "react";
 const Header = () => {
+  const [theme, setTheme] = useState(false);
+  const elementDocument = document.documentElement;
+  useEffect(() => {
+    if (theme) {
+      elementDocument.classList.remove("dark");
+    } else {
+      elementDocument.classList.add("dark");
+    }
+    return () => "";
+  }, [theme, elementDocument]);
   return (
     <>
       <div
@@ -12,7 +23,10 @@ const Header = () => {
         </div>
         <div className="flex sm:justify-between items-center gap-6 max-[640px]:mt-4 ">
           <HiOutlineMenu className="tablet:hidden text-2xl" />
-          <BsSun className="text-2xl cursor-pointer" />
+          <BsSun
+            className="text-2xl cursor-pointer"
+            onClick={() => setTheme(!theme)}
+          />
         </div>
       </div>
     </>
