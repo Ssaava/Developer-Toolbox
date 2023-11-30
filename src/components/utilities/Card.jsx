@@ -8,7 +8,7 @@ const Card = () => {
         <div className="mb-4 text-3xl text-[#2c3e50] dark:text-white font-primaryFont font-bold">
           Card title
         </div>
-        <div className="text-base h-[125px] text-[#979a9e] group-hover/card:text-[#737476] font-textFont overflow-y-hidden transition">
+        <div className="text-base h-[125px] text-gray-300 group-hover/card:text-[#737476] font-textFont overflow-y-hidden transition">
           JavaScript (JS) is a lightweight interpreted (or just-in-time
           compiled) programming language with first-class functions. While it is
           most well-known as the scripting language for Web pages, many

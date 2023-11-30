@@ -17,6 +17,7 @@ export default {
           500: "#fffc0230", // bg color light mode main
         },
         gray: {
+          300: "#979a9e", // gray text
           800: "#121212AA", // bg darkmode hover
           900: "#222222", // bg for main in dark mode
           950: "#121212", // bg on dark mode
