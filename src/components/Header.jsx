@@ -6,34 +6,42 @@ const Header = () => {
   const [themeType, setThemeType] = useState("system");
   const [themeSwitch, setThemeSwitch] = useState(true);
   const elementDocument = document.documentElement;
+  const localStorageItem = localStorage.getItem("theme") || "";
+
   const themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
   themeQuery.addEventListener("change", () => switchSystemTheme());
   // useEffect hook
-  useEffect(() => {}, []);
-  function switchTheme(theme) {
-    switch (theme) {
+  useEffect(() => {
+    switch (themeType) {
       case "dark":
         elementDocument.classList.add("dark");
-        setThemeType("dark");
+        localStorage.setItem("theme", "dark");
+
         break;
       case "light":
         elementDocument.classList.remove("dark");
-        setThemeType("light");
+        localStorage.removeItem("theme");
+
         break;
       default:
-        switchSystemTheme();
-        setThemeType("system");
+        localStorage.removeItem("theme");
+
         break;
     }
-  }
+  }, [themeType, elementDocument]);
+
   //switch theme when system changes
   function switchSystemTheme() {
-    if (themeQuery.matches && themeType !== "dark") {
+    if (
+      themeQuery.matches ||
+      themeType !== "dark" ||
+      !("theme" in localStorage)
+    ) {
       elementDocument.classList.add("dark");
-      switchTheme("system");
+      setThemeType("system");
     } else {
       elementDocument.classList.remove("dark");
-      switchTheme("system");
+      setThemeType("system");
     }
   }
 
@@ -88,15 +96,15 @@ const Header = () => {
             >
               <BsSun
                 className="text-5xl cursor-pointer w-full py-2 text-gray-300  dark:hover:bg-gray-900 hover:text-white"
-                onClick={() => switchTheme("light")}
+                onClick={() => setThemeType("light")}
               />
               <MdDarkMode
                 className="text-5xl cursor-pointer w-full py-2 text-gray-300 dark:hover:bg-gray-900 hover:text-gray-500"
-                onClick={() => switchTheme("dark")}
+                onClick={() => setThemeType("dark")}
               />
               <MdComputer
                 className="text-5xl cursor-pointer w-full py-2 text-gray-300  dark:hover:bg-gray-900 hover:text-blue-400"
-                onClick={() => console.log(themeType)}
+                onClick={() => switchSystemTheme("system")}
               />
             </div>
           </div>
