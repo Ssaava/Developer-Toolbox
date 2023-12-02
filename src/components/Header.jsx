@@ -26,7 +26,7 @@ const Header = () => {
         break;
       default:
         localStorage.removeItem("theme");
-
+        switchSystemTheme();
         break;
     }
   }, [themeType, elementDocument]);
