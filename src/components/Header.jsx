@@ -3,10 +3,11 @@ import { BsSun } from "react-icons/bs";
 import { MdDarkMode, MdOutlineArrowDropDown, MdComputer } from "react-icons/md";
 import { useEffect, useState } from "react";
 const Header = () => {
-  const [themeType, setThemeType] = useState("system");
+  const [themeType, setThemeType] = useState(
+    "theme" in localStorage ? localStorage.getItem("theme") : "system"
+  );
   const [themeSwitch, setThemeSwitch] = useState(true);
   const elementDocument = document.documentElement;
-  const localStorageItem = localStorage.getItem("theme") || "";
 
   const themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
   themeQuery.addEventListener("change", () => switchSystemTheme());
@@ -20,7 +21,7 @@ const Header = () => {
         break;
       case "light":
         elementDocument.classList.remove("dark");
-        localStorage.removeItem("theme");
+        localStorage.setItem("theme", "light");
 
         break;
       default:
@@ -34,12 +35,14 @@ const Header = () => {
   function switchSystemTheme() {
     if (
       themeQuery.matches ||
-      themeType !== "dark" ||
-      !("theme" in localStorage)
+      (themeType === "dark" && !("theme" in localStorage))
     ) {
+      localStorage.setItem("theme", "dark");
       elementDocument.classList.add("dark");
+
       setThemeType("system");
     } else {
+      localStorage.setItem("theme", "light");
       elementDocument.classList.remove("dark");
       setThemeType("system");
     }
@@ -104,7 +107,7 @@ const Header = () => {
               />
               <MdComputer
                 className="text-5xl cursor-pointer w-full py-2 text-gray-300  dark:hover:bg-gray-900 hover:text-blue-400"
-                onClick={() => switchSystemTheme("system")}
+                onClick={() => switchSystemTheme()}
               />
             </div>
           </div>
