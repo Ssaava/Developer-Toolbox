@@ -1,6 +1,10 @@
 const Card = () => {
   return (
-    <div className="group/card h-72 p-4 mt-12 rounded relative bg-white cursor-pointer hover:bg-slate-100 transition dark:bg-gray-950 dark:text-white hover:dark:bg-gray-800">
+    <a
+      href="/"
+      target="_blank"
+      className="group/card h-72 p-4 mt-12 rounded relative bg-white cursor-pointer hover:bg-slate-100 transition dark:bg-gray-950 dark:text-white hover:dark:bg-gray-800"
+    >
       <div className="card-img bg-[url('/src/assets/JavaScript-logo.png')]  ">
         {/* <img src="../../../public/JavaScript-logo.png" alt="resource name" /> */}
       </div>
@@ -19,7 +23,7 @@ const Card = () => {
           Read more
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

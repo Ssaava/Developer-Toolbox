@@ -5,7 +5,7 @@ import { FaQuestion } from "react-icons/fa6";
 
 const SideNav = () => {
   return (
-    <div className="tablet:w-80 w-0 transition-all overflow-hidden py-5 h-full fixed bg-white dark:bg-gray-950 dark:text-white top-0 border-r-2 border-stone-300 dark:border-gray-900">
+    <div className="side-nav">
       <div className="profile px-5 text-xl">
         <Avatar />
         <div>
