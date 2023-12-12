@@ -6,11 +6,13 @@
     "examples": [
       {
         "name": "Java",
+        "link": "https://www.java.com/en/",
         "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
         "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. "
       },
       {
         "name": "Pascal",
+        "link": "https://www.tutorialspoint.com/pascal/pascal_overview.htm",
         "icon": "https://alefragnani.gallerycdn.vsassets.io/extensions/alefragnani/pascal/9.6.0/1676423977534/Microsoft.VisualStudio.Services.Icons.Default",
         "description": "Pascal is an imperative and procedural programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named after French mathematician, philosopher and physicist Blaise Pascal."
       }
@@ -23,6 +25,7 @@
     "examples": [
       {
         "name": "Prolog",
+        "link": "https://www.tutorialspoint.com/prolog/prolog_introduction.htm",
         "icon": "https://plugins.jetbrains.com/files/13954/290585/icon/pluginIcon.png",
         "description": "Prolog is a logic programming language associated with artificial intelligence and computational linguistics."
       }

@@ -1,0 +1,15 @@
+[
+  {
+    "category": "Programing Languages",
+    "sub category": "Paradigm-Based",
+    "type": "Imperative Languages",
+    "examples": [
+      {
+        "name": "Pascal",
+        "link": "https://www.tutorialspoint.com/pascal/pascal_overview.htm",
+        "icon": "https://alefragnani.gallerycdn.vsassets.io/extensions/alefragnani/pascal/9.6.0/1676423977534/Microsoft.VisualStudio.Services.Icons.Default",
+        "description": "Pascal is an imperative and procedural programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named after French mathematician, philosopher and physicist Blaise Pascal."
+      }
+    ]
+  }
+]
