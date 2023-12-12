@@ -1,0 +1,15 @@
+[
+  {
+    "category": "Programing Languages",
+    "sub category": "Paradigm-Based",
+    "type": "Declarative Languages",
+    "examples": [
+      {
+        "name": "Prolog",
+        "link": "https://www.tutorialspoint.com/prolog/prolog_introduction.htm",
+        "icon": "https://plugins.jetbrains.com/files/13954/290585/icon/pluginIcon.png",
+        "description": "Prolog is a logic programming language associated with artificial intelligence and computational linguistics."
+      }
+    ]
+  }
+]

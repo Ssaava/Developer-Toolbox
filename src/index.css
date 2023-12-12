@@ -14,6 +14,9 @@
   html {
     @apply dark:bg-gray-900 bg-stone-300;
   }
+  .side-nav {
+    @apply tablet:w-80 w-0 tablet:block hidden transition-all overflow-hidden py-5 h-full fixed bg-white dark:bg-gray-950 dark:text-white top-0 border-r-2 border-stone-300 dark:border-gray-900;
+  }
   .dark {
     @apply bg-gray-900;
   }

@@ -1,0 +1,15 @@
+[
+  {
+    "category": "Programing Languages",
+    "sub category": "Paradigm-Based",
+    "type": "Imperative Languages",
+    "examples": [
+      {
+        "name": "Java",
+        "link": "https://www.java.com/en/",
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. "
+      }
+    ]
+  }
+]
