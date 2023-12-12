@@ -1,6 +1,6 @@
 // these images shall be updated dynamically from the user's profile as stored in the database
 import { PropTypes } from "prop-types";
-const Avatar = ({ src = "/src/assets/Avatar-man.png" }) => {
+const Avatar = ({ src = "Avatar-man.png" }) => {
   // src = "../../../public/avatar-man.png";
   return (
     <>
