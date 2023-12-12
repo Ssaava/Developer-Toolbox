@@ -1,6 +1,6 @@
 import { Card, SearchInput } from "./utilities";
 // import ProgrammingLanguages from "../../data/ProgramingLanguages.json";
-import dataFiles from "../../data/index.ts";
+import dataFiles from "../../data/index.tsx";
 
 import { useEffect, useState } from "react";
 
