@@ -38,6 +38,7 @@ Welcome to the Developer Resources Repository! Here you'll find a curated collec
 
   - [Code Editors](#code-editors)
   - [Version Control](#version-control)
+  - [JSON Utilities](#json-utilities)
 
 - [Data Science and Machine Learning](#data-science-and-machine-learning)
 
@@ -102,6 +103,12 @@ Welcome to the Developer Resources Repository! Here you'll find a curated collec
   - [Interview Preparation](#interview-preparation)
 
 - [Miscellaneous](#miscellaneous)
+
+## Development Tools
+
+### JSON Utilities
+
+- [BestJSON](https://bestjson.com/) - Free browser-based JSON formatting, syntax validation and structural comparison; input is processed locally and no account is required.
 
 ---
 
